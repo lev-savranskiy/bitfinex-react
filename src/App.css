@@ -1,0 +1,18 @@
+.left {
+    float: left;
+}
+.title {
+    font-size: 14px;
+}
+
+.tbl {
+    min-width: 300px;
+    background-color: #1B262D;
+    margin: 5px;
+}
+
+.ticker {
+    background-color: #1B262D;
+    margin: 5px;
+}
+
