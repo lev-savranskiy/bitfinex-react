@@ -1,24 +1,24 @@
-##Bitfinex UI
+## Bitfinex UI
 
-####Order Book
+### Order Book
 Similarly to the book from the website
 
-#### Trades
+### Trades
 The trades widget is supposed to show trades executed on the market -API access is not required.
 
-####Ticker
+### Ticker
 Ticker is a small widget that shows the current trade pair, 24 hours volume, 24 hours price change in percents, and last price for that pair.
 
-####General Requirements
+### General Requirements
 All of the widgets should conceptually be the same as the corresponding widgets on the Bitfinex website. 
 
-####Technological Requirements
+### Technological Requirements
 Use React for rendering. 
 Feel free to create a custom CSS style for the widgets, it can be very simple.
 Use Bitfinex WebSocket V2 API to obtain the data.
 https://docs.bitfinex.com/v2/docs
 
-####todo
+#### todo
 - Add the ability to recover after lost network connection. 
 - Add some controls to manage the websocket connection such as “Connect” and “Disconnect” buttons.
 - Add ability to change precision of the price column
